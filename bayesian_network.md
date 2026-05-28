@@ -1,6 +1,6 @@
 Bayesian Networks
 
-Bayesian Networks are graphical models used to represent probability and uncertainty.
+Bayesian Networks are probabilistic graphical models used to represent uncertainty and relationships between variables.
 
 They contain:
 - nodes representing variables
@@ -8,19 +8,34 @@ They contain:
 
 These networks are useful when the system has incomplete or uncertain information.
 
-Example:
-Rain -> Wet Grass
+Applications
 
-If there is a higher probability of rain, then the probability of wet grass also increases.
-
-Applications:
 - medical diagnosis
 - weather prediction
 - risk analysis
+- fault detection
 
-Some commonly used tools for Bayesian Networks are:
-- GeNIe
-- Netica
-- pgmpy
+Tools used
 
-Bayesian Networks are useful because they help in reasoning and decision making under uncertainty.
+1. GeNIe  
+   Used for modelling and inferencing using Bayesian Networks.
+
+2. Netica  
+   Used for creating Bayesian Network models.
+
+3. pgmpy  
+   Python library used for implementing Bayesian Networks.
+
+Example
+
+Rain -> Wet Grass
+
+If the probability of rain increases, then the probability of wet grass also increases.
+
+This relationship can be represented using a Bayesian Network.
+
+Inferencing
+
+Inferencing means calculating probabilities using available evidence.
+
+For example, if wet grass is observed, the probability of rain can be estimated using the network.
